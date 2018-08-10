@@ -6,7 +6,7 @@ You can install Spiget4PHP-Obj using composer ([View on packagist](https://packa
 ``` 
 composer require th3shadowbroker/spiget4php-obj
 ```
-**Make sure spiget4php is required by your project!**
+**Make sure [spiget4php](https://github.com/th3shadowbroker/spiget4php) is required by your project!**
 
 ## Suggestions and issues
 If you have any suggestions or want to report an issue don't be afraid of using the issue-tracker. However most of the time
