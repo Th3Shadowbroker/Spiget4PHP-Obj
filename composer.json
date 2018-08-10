@@ -1,0 +1,19 @@
+{
+  "name": "th3shadowbroker/spiget4php-obj",
+  "description": "An optional extension for spiget4php providing different objects to work with the Spiget-API results.",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Th3Shadowbroker",
+      "email": "webmaster@m4taiori.de"
+    }
+  ],
+  "autoload":
+  {
+    "classmap": ["Classes/"]
+  },
+  "require": {
+    "th3shadowbroker/spiget4php": "v1.0.3"
+  }
+}

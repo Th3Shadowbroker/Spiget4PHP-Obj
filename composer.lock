@@ -1,0 +1,53 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d166338d83ba3c75a923624e80474eb3",
+    "packages": [
+        {
+            "name": "th3shadowbroker/spiget4php",
+            "version": "v1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Th3Shadowbroker/Spiget4PHP.git",
+                "reference": "2724dce31badc2e9e356193417ff115545728544"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Th3Shadowbroker/Spiget4PHP/zipball/2724dce31badc2e9e356193417ff115545728544",
+                "reference": "2724dce31badc2e9e356193417ff115545728544",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "Environment/",
+                    "Exceptions/",
+                    "SpigetAPI.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Th3Shadowbroker",
+                    "email": "webmaster@m4taiori.de"
+                }
+            ],
+            "description": "PHP-wrapper for the spiget.org-api.",
+            "time": "2018-07-06T22:05:32+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
