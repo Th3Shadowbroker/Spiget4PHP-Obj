@@ -8,6 +8,9 @@ composer require th3shadowbroker/spiget4php-obj
 ```
 **Make sure [spiget4php](https://github.com/th3shadowbroker/spiget4php) is required by your project!**
 
+## Documentation
+If you want to learn more about spiget4php-obj visit the [docs](https://docs.m4taiori.io/spiget4php-obj).
+
 ## Suggestions and issues
 If you have any suggestions or want to report an issue don't be afraid of using the issue-tracker. However most of the time
 I'm not able to work on my "freetime-projects" so feel free to submit pull-request even if you've only corrected a typo :octocat:
