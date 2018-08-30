@@ -4,28 +4,34 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d166338d83ba3c75a923624e80474eb3",
+    "content-hash": "9f35f0f57c3315cac47d22d53b9a449b",
     "packages": [
         {
             "name": "th3shadowbroker/spiget4php",
-            "version": "v1.0.3",
+            "version": "v1.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Th3Shadowbroker/Spiget4PHP.git",
-                "reference": "2724dce31badc2e9e356193417ff115545728544"
+                "reference": "74a669f01816dc250c8a22f75ce1661a7cb230a1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Th3Shadowbroker/Spiget4PHP/zipball/2724dce31badc2e9e356193417ff115545728544",
-                "reference": "2724dce31badc2e9e356193417ff115545728544",
+                "url": "https://api.github.com/repos/Th3Shadowbroker/Spiget4PHP/zipball/74a669f01816dc250c8a22f75ce1661a7cb230a1",
+                "reference": "74a669f01816dc250c8a22f75ce1661a7cb230a1",
                 "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*"
             },
             "type": "library",
             "autoload": {
                 "classmap": [
-                    "Environment/",
-                    "Exceptions/",
+                    "Exceptions/SpigetException.php",
                     "SpigetAPI.php"
+                ],
+                "files": [
+                    "Environment/Constants.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -39,7 +45,7 @@
                 }
             ],
             "description": "PHP-wrapper for the spiget.org-api.",
-            "time": "2018-07-06T22:05:32+00:00"
+            "time": "2018-08-30T08:33:54+00:00"
         }
     ],
     "packages-dev": [],
@@ -48,6 +54,9 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
     "platform-dev": []
 }
