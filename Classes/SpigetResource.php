@@ -75,11 +75,12 @@ class SpigetResource
 
     /**
      * Get the resource description.
+     * @param bool $removeHtml Remove the html parts of the description.
      * @return string
      */
-    public function getDescription()
+    public function getDescription($removeHtml = false )
     {
-        return $this->resource['description'];
+        return strip_tags( base64_decode($this->resource['description']) );
     }
 
     /**
