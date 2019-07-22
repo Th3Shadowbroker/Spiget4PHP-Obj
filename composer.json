@@ -16,6 +16,6 @@
   "require": {
     "ext-json": "*",
     "ext-curl": "*",
-    "th3shadowbroker/spiget4php": "^1.0"
+    "th3shadowbroker/spiget4php": "^1.0.5"
   }
 }
